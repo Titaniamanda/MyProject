@@ -17,7 +17,7 @@ Auth::routes();
 
 Route::middleware('auth')->group(function () {
 
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
     Route::resource('barang', BarangController::class);
 
     Route::resource('kategori', KategoriBarangController::class);

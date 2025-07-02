@@ -24,6 +24,6 @@
     </table>
 
     <a href="{{ route('supplier.index') }}" class="btn btn-secondary">Kembali</a>
-    <a href="{{ route('supplier.edit', $supplier->id) }}" class="btn btn-warning">Edit</a>
+
 </div>
 @endsection
